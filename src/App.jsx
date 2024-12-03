@@ -1,3 +1,4 @@
+import { useState } from "react"
 import Footer from "./Components/Footer"
 import Main from "./Components/Main"
 import SideBar from "./Components/SideBar"
@@ -6,11 +7,18 @@ import SideBar from "./Components/SideBar"
 
 function App() {
 
+  const [showModal, setShowModal] = useState(false)
+
+  function handleToggleModal() {
+    setShowModal(!showModal)
+  } 
+
   return (
     <>
       <Main />
-      <SideBar />
-      <Footer />
+      {showModal && (
+        <SideBar /> )}
+      <Footer handleToggleModal = {handleToggleModal}/>
     </>
   )
 }

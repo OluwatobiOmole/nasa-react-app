@@ -47,8 +47,42 @@ footer {
   align-items:center;
   justify-content: space-between;
   gap: 1rem;
+  padding: 1rem;
 
 }
+
+footer div {
+  display: flex;
+  flex-direction: column;
+}
+
+footer h2 {
+  font-size: 1.4rem;
+}
+
+footer h1 {
+  font-size: 0.9rem;
+  font-weight: 200;
+}
+
+footer button {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 1rem;
+  transition-duration: 200ms;
+  cursor: pointer;
+}
+
+footer button i {
+  font-size: 1.3rem;
+}
+
+footer button:hover {
+  opacity: 0.7;
+}
+
 
 .bgGradient {
   position: absolute;
@@ -63,6 +97,7 @@ footer {
   display: flex;
   flex-direction: column;
   z-index: 10;
+  
 }
 
 .bgOverlay {
@@ -87,3 +122,31 @@ footer {
   background: #030615;
 }
 
+.sidebarContents div {
+  flex: 1;
+}
+
+.sidebarContents button {
+  background: transparent;
+  color: white;
+  border: none;
+  outline: none;
+  margin-right: auto;
+}
+
+@media (min-width: 640px) {
+
+  .sidebar {
+    position: relative;
+    inset: unset;
+    min-width: 30%;
+    max-height: 100vh;
+    box-shadow: 0 0 40px 1px #030615;
+  }
+
+  .sidebarContents {
+    margin: unset;
+    width: 100%;
+  }
+
+}
