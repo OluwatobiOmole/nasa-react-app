@@ -1,6 +1,6 @@
-import Footer from "./components/Footer"
-import Main from "./components/Main"
-import SideBar from "./components/SideBar"
+import Footer from "./Components/Footer"
+import Main from "./Components/Main"
+import SideBar from "./Components/SideBar"
 
 
 
