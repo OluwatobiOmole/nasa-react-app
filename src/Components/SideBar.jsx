@@ -4,7 +4,7 @@ export default function SideBar() {
         <h2> The Brutal Martian Landscape</h2>
         <div>
             <p>Description</p>
-            <p>snd nfkjehfiow enjfwhefhiwhe jeohfouiwehfu oihdefu</p>
+            <p>snd nfkjehfiow enjfwhefhiwhe jeohfouiwehfu oihdedfu</p>
         </div>
     </div>
   )
