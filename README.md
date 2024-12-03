@@ -1,8 +1,30 @@
-# React + Vite
+# NASA API Data Fetching Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+This project demonstrates how to:
+- Access the **NASA API** to fetch data.
+- Style the application using various **CSS techniques**.
+- Cache the fetched API data for better performance and efficiency.
 
-Currently, two official plugins are available:
+### Live Project Link
+[Visit the project here](https://oluwatobinasaapi.netlify.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
+
+## Features
+
+### 1. NASA API Integration
+- Fetches daily data from the NASA API, such as:
+  - Astronomy pictures.
+  - Metadata.
+  - Descriptions.
+
+### 2. CSS Styling Techniques
+- Implements various CSS methods, including:
+  - **Flexbox** and **Grid Layout** for responsive design.
+  - Custom animations using **@keyframes**.
+  - Theming with **CSS variables**.
+
+### 3. Data Caching
+- Utilizes **localStorage** to cache API data.
+- Ensures faster loading by checking cached data before making API requests.
