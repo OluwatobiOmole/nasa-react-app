@@ -3,8 +3,8 @@
   line-height: 1.5;
   font-weight: 400;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
+  
+  color: white;
   background-color: #030615;
 
   font-synthesis: none;
@@ -49,3 +49,41 @@ footer {
   gap: 1rem;
 
 }
+
+.bgGradient {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: linear-gradient(to top, #030615, rgba(255, 255, 255, 0));
+}
+
+.sidebar {
+  position: fixed;
+  inset:0;
+  display: flex;
+  flex-direction: column;
+  z-index: 10;
+}
+
+.bgOverlay {
+  position: absolute;
+  inset: 0;
+  background: #030615;
+  opacity: 0.6;
+}
+
+.sidebarContents{
+  z-index: 15;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+  overflow-y: scroll;
+  height: 100%;
+  width: 80%;
+  max-width: 800px;
+  margin-left: auto;
+  background: #030615;
+}
+
